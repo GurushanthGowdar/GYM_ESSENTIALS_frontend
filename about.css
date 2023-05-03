@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #060606;
+}
+.pic{
+  width: 50%;
+  height: 50%;
+  display: flex;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: transform 0.5s;
+}
+
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.text h3{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  color: rgb(201, 61, 14);
+}
+span{
+  color: #a0d2e9;
+}
+.text p{
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  padding-left: 25px;
+  color: rgb(121, 166, 151);
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #96cbec;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #85c8f5;
+}
+.btnnn{
+  margin-top: 1000px;
+  margin-bottom: 3px;
+  background: #d03d2a;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
